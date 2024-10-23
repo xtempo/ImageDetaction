@@ -1,0 +1,27 @@
+# required dependencies 
+
+labelImg
+PyQt5
+lxml
+
+# for that you should use conda teminal which is Anaconda terminal
+# install labelImg for image verification
+conda install pyqt=5
+conda install -c anaconda lxml
+pyrcc5 -o libs/resources.py resources.qrc
+python labelImg.py
+
+
+# install pandas
+pip3 install pandas
+
+# install tenserflow
+pip install tensorflow
+
+
+# for collecting the bulk of image from he google we can directly collect the image from the google and 
+# store in the image test and train folder 
+
+# But for easier image installation we are installing the Bulk Image Downloader on the chrome web app
+
+https://chromewebstore.google.com/detail/bulk-image-downloader-him/glcgjkleinhkbopkjdjkbhmmphaohgpd
